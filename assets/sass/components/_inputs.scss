@@ -1,6 +1,8 @@
 .navigation__input {
     border-radius: 30px;
     display: block;
+    width: 90px;
+    @include respond-to-down('sm'){width: 140px;};
 }
 
 .newsletter__input{

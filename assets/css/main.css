@@ -677,6 +677,12 @@ table {
 .navigation__input {
   border-radius: 30px;
   display: block;
+  width: 90px;
+}
+@media (min-width: 576px) {
+  .navigation__input {
+    width: 140px;
+  }
 }
 
 .newsletter__input {
