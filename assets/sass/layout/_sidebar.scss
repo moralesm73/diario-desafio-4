@@ -1,0 +1,65 @@
+.sidebar {
+    padding-left: 10px;
+}
+
+.sidebar__about-us {
+    border-bottom: 1px solid $gray;
+    h1 {
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+    p {
+        margin-bottom: 10px;
+    }
+}
+
+.sidebar__tags {
+    border-bottom: 1px solid $gray;
+    h1 {
+        font-size: 28px;
+        margin-bottom: 15px;
+        margin-top: 20px;
+    }
+    ul {
+        padding: 0;
+        list-style: none;
+        margin-bottom: 10px;
+        li {
+            padding: 2px 4px;
+            background-color: $steelblue;
+            margin-right: 1px;
+            color: $white;
+        }
+    }
+}
+
+.sidebar__trendings {
+    margin-bottom: 50px;
+    h1 {
+        font-size: 28px;
+        margin-bottom: 15px;
+        margin-top: 20px;
+    }
+    .sidebar__news {
+        h4 {
+            margin: 20px 0;
+        }
+        .sidebar__image-news {
+            width:100%;
+            height: 35vh;
+            @include respond-to-down('lg'){height: 25vh;}
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            &--first{
+                background-image: url(https://picsum.photos/220/300?random=7);
+            }
+            &--second{
+                background-image: url(https://picsum.photos/220/300?random=8);
+            }
+            &--third{
+                background-image: url(https://picsum.photos/220/300?random=9);
+            }
+        }
+    }
+}

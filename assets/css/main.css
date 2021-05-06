@@ -465,6 +465,194 @@ table {
   }
 }
 
+.sidebar {
+  padding-left: 10px;
+}
+
+.sidebar__about-us {
+  border-bottom: 1px solid gray;
+}
+.sidebar__about-us h1 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+.sidebar__about-us p {
+  margin-bottom: 10px;
+}
+
+.sidebar__tags {
+  border-bottom: 1px solid gray;
+}
+.sidebar__tags h1 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
+.sidebar__tags ul {
+  padding: 0;
+  list-style: none;
+  margin-bottom: 10px;
+}
+.sidebar__tags ul li {
+  padding: 2px 4px;
+  background-color: steelblue;
+  margin-right: 1px;
+  color: white;
+}
+
+.sidebar__trendings {
+  margin-bottom: 50px;
+}
+.sidebar__trendings h1 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
+.sidebar__trendings .sidebar__news h4 {
+  margin: 20px 0;
+}
+.sidebar__trendings .sidebar__news .sidebar__image-news {
+  width: 100%;
+  height: 35vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media (min-width: 992px) {
+  .sidebar__trendings .sidebar__news .sidebar__image-news {
+    height: 25vh;
+  }
+}
+.sidebar__trendings .sidebar__news .sidebar__image-news--first {
+  background-image: url(https://picsum.photos/220/300?random=7);
+}
+.sidebar__trendings .sidebar__news .sidebar__image-news--second {
+  background-image: url(https://picsum.photos/220/300?random=8);
+}
+.sidebar__trendings .sidebar__news .sidebar__image-news--third {
+  background-image: url(https://picsum.photos/220/300?random=9);
+}
+
+.news {
+  padding: 1rem 1.5rem 3rem;
+}
+
+@media (min-width: 768px) {
+  .news__section {
+    padding-right: 10px;
+  }
+}
+
+.news__article {
+  padding: 5px;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+.news__header h2 {
+  font-size: 20px;
+}
+
+.news__image {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 30vh;
+}
+@media (min-width: 768px) {
+  .news__image {
+    height: 35vh;
+  }
+}
+@media (min-width: 992px) {
+  .news__image {
+    height: 40vh;
+  }
+}
+.news__image--first {
+  background-image: url(https://picsum.photos/720/400?random=1);
+}
+@media (min-width: 768px) {
+  .news__image--first {
+    background-image: url(https://picsum.photos/310/400?random=1);
+  }
+}
+@media (min-width: 992px) {
+  .news__image--first {
+    background-image: url(https://picsum.photos/220/400?random=1);
+  }
+}
+.news__image--second {
+  background-image: url(https://picsum.photos/720/400?random=2);
+}
+@media (min-width: 768px) {
+  .news__image--second {
+    background-image: url(https://picsum.photos/310/400?random=2);
+  }
+}
+@media (min-width: 992px) {
+  .news__image--second {
+    background-image: url(https://picsum.photos/220/400?random=2);
+  }
+}
+.news__image--third {
+  background-image: url(https://picsum.photos/720/400?random=3);
+}
+@media (min-width: 768px) {
+  .news__image--third {
+    background-image: url(https://picsum.photos/310/400?random=3);
+  }
+}
+@media (min-width: 992px) {
+  .news__image--third {
+    background-image: url(https://picsum.photos/220/400?random=3);
+  }
+}
+.news__image--fourth {
+  background-image: url(https://picsum.photos/720/400?random=4);
+}
+@media (min-width: 768px) {
+  .news__image--fourth {
+    background-image: url(https://picsum.photos/310/400?random=4);
+  }
+}
+@media (min-width: 992px) {
+  .news__image--fourth {
+    background-image: url(https://picsum.photos/220/400?random=4);
+  }
+}
+.news__image--fifth {
+  background-image: url(https://picsum.photos/720/400?random=5);
+}
+@media (min-width: 768px) {
+  .news__image--fifth {
+    background-image: url(https://picsum.photos/310/400?random=5);
+  }
+}
+@media (min-width: 992px) {
+  .news__image--fifth {
+    background-image: url(https://picsum.photos/220/400?random=5);
+  }
+}
+.news__image--sixth {
+  background-image: url(https://picsum.photos/720/400?random=6);
+}
+@media (min-width: 768px) {
+  .news__image--sixth {
+    background-image: url(https://picsum.photos/310/400?random=6);
+  }
+}
+@media (min-width: 992px) {
+  .news__image--sixth {
+    background-image: url(https://picsum.photos/220/400?random=6);
+  }
+}
+
+.news__body p {
+  padding: 5px 10px;
+}
+
 .navigation__input {
   border-radius: 30px;
   display: block;
