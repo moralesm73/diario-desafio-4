@@ -1,0 +1,31 @@
+.d-block {
+    @include respond-to-up('xs'){display: block;}
+    &-sm {
+        @include respond-to-up('sm'){display: block;}
+    }
+    &-md {
+        @include respond-to-up('md'){display: block;}
+    }
+    &-lg {
+        @include respond-to-up('lg'){display: block;}
+    }
+    &-xl {
+        @include respond-to-up('xl'){display: block;}
+    }
+}
+
+.d-none {
+    @include respond-to-up('xs'){display: none;}
+    &-sm {
+        @include respond-to-up('sm'){display: none;}
+    }
+    &-md {
+        @include respond-to-up('md'){display: none;}
+    }
+    &-lg {
+        @include respond-to-up('lg'){display: none;}
+    }
+    &-xl {
+        @include respond-to-up('xl'){display: none;}
+    }
+}

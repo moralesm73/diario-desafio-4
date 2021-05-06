@@ -13,10 +13,18 @@ $min-md: 768px;
 $min-lg: 992px;
 $min-xl: 1200px;
 
-$breakpoints: (
+$breakpoints-down: (
     'xs': (min-width: $min-xs),
     'sm': (min-width: $min-sm),
     'md': (min-width: $min-md),
     'lg': (min-width: $min-lg),
+    'xl': (min-width: $min-xl)
+);
+
+$breakpoints-up: (
+    'xs': (max-width: $min-sm),
+    'sm': (max-width: $min-md),
+    'md': (max-width: $min-lg),
+    'lg': (max-width: $min-xl),
     'xl': (min-width: $min-xl)
 );
