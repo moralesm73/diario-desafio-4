@@ -1,0 +1,24 @@
+.menu__nav {
+    display: inline-block;
+    width: 840px;
+    text-align: right;
+}
+.navigation {
+    list-style-type: none;
+    margin:0;
+    display: inline-block;
+}
+.navigation__item {
+    display: block;
+    float: left;
+    margin-right: 10px;
+    &:last-child{
+        margin-right: 0;
+    }
+}
+.navigation__link {
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 3px 0;
+}

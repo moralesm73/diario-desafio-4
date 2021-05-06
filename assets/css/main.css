@@ -1,0 +1,421 @@
+* {
+  box-sizing: border-box;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-family: monospace;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.max-body {
+  width: 100%;
+  margin: 0 auto;
+}
+@media (min-width: 992px) {
+  .max-body {
+    width: 960px;
+  }
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+@media (min-width: 1px) {
+  .col-1 {
+    grid-column: span 1;
+  }
+}
+@media (min-width: 1px) {
+  .col-2 {
+    grid-column: span 2;
+  }
+}
+@media (min-width: 1px) {
+  .col-3 {
+    grid-column: span 3;
+  }
+}
+@media (min-width: 1px) {
+  .col-4 {
+    grid-column: span 4;
+  }
+}
+@media (min-width: 1px) {
+  .col-5 {
+    grid-column: span 5;
+  }
+}
+@media (min-width: 1px) {
+  .col-6 {
+    grid-column: span 6;
+  }
+}
+@media (min-width: 1px) {
+  .col-7 {
+    grid-column: span 7;
+  }
+}
+@media (min-width: 1px) {
+  .col-8 {
+    grid-column: span 8;
+  }
+}
+@media (min-width: 1px) {
+  .col-9 {
+    grid-column: span 9;
+  }
+}
+@media (min-width: 1px) {
+  .col-10 {
+    grid-column: span 10;
+  }
+}
+@media (min-width: 1px) {
+  .col-11 {
+    grid-column: span 11;
+  }
+}
+@media (min-width: 1px) {
+  .col-12 {
+    grid-column: span 12;
+  }
+}
+@media (min-width: 576px) {
+  .col-sm-1 {
+    grid-column: span 1;
+  }
+}
+@media (min-width: 576px) {
+  .col-sm-2 {
+    grid-column: span 2;
+  }
+}
+@media (min-width: 576px) {
+  .col-sm-3 {
+    grid-column: span 3;
+  }
+}
+@media (min-width: 576px) {
+  .col-sm-4 {
+    grid-column: span 4;
+  }
+}
+@media (min-width: 576px) {
+  .col-sm-5 {
+    grid-column: span 5;
+  }
+}
+@media (min-width: 576px) {
+  .col-sm-6 {
+    grid-column: span 6;
+  }
+}
+@media (min-width: 576px) {
+  .col-sm-7 {
+    grid-column: span 7;
+  }
+}
+@media (min-width: 576px) {
+  .col-sm-8 {
+    grid-column: span 8;
+  }
+}
+@media (min-width: 576px) {
+  .col-sm-9 {
+    grid-column: span 9;
+  }
+}
+@media (min-width: 576px) {
+  .col-sm-10 {
+    grid-column: span 10;
+  }
+}
+@media (min-width: 576px) {
+  .col-sm-11 {
+    grid-column: span 11;
+  }
+}
+@media (min-width: 576px) {
+  .col-sm-12 {
+    grid-column: span 12;
+  }
+}
+@media (min-width: 768px) {
+  .col-md-1 {
+    grid-column: span 1;
+  }
+}
+@media (min-width: 768px) {
+  .col-md-2 {
+    grid-column: span 2;
+  }
+}
+@media (min-width: 768px) {
+  .col-md-3 {
+    grid-column: span 3;
+  }
+}
+@media (min-width: 768px) {
+  .col-md-4 {
+    grid-column: span 4;
+  }
+}
+@media (min-width: 768px) {
+  .col-md-5 {
+    grid-column: span 5;
+  }
+}
+@media (min-width: 768px) {
+  .col-md-6 {
+    grid-column: span 6;
+  }
+}
+@media (min-width: 768px) {
+  .col-md-7 {
+    grid-column: span 7;
+  }
+}
+@media (min-width: 768px) {
+  .col-md-8 {
+    grid-column: span 8;
+  }
+}
+@media (min-width: 768px) {
+  .col-md-9 {
+    grid-column: span 9;
+  }
+}
+@media (min-width: 768px) {
+  .col-md-10 {
+    grid-column: span 10;
+  }
+}
+@media (min-width: 768px) {
+  .col-md-11 {
+    grid-column: span 11;
+  }
+}
+@media (min-width: 768px) {
+  .col-md-12 {
+    grid-column: span 12;
+  }
+}
+@media (min-width: 992px) {
+  .col-lg-1 {
+    grid-column: span 1;
+  }
+}
+@media (min-width: 992px) {
+  .col-lg-2 {
+    grid-column: span 2;
+  }
+}
+@media (min-width: 992px) {
+  .col-lg-3 {
+    grid-column: span 3;
+  }
+}
+@media (min-width: 992px) {
+  .col-lg-4 {
+    grid-column: span 4;
+  }
+}
+@media (min-width: 992px) {
+  .col-lg-5 {
+    grid-column: span 5;
+  }
+}
+@media (min-width: 992px) {
+  .col-lg-6 {
+    grid-column: span 6;
+  }
+}
+@media (min-width: 992px) {
+  .col-lg-7 {
+    grid-column: span 7;
+  }
+}
+@media (min-width: 992px) {
+  .col-lg-8 {
+    grid-column: span 8;
+  }
+}
+@media (min-width: 992px) {
+  .col-lg-9 {
+    grid-column: span 9;
+  }
+}
+@media (min-width: 992px) {
+  .col-lg-10 {
+    grid-column: span 10;
+  }
+}
+@media (min-width: 992px) {
+  .col-lg-11 {
+    grid-column: span 11;
+  }
+}
+@media (min-width: 992px) {
+  .col-lg-12 {
+    grid-column: span 12;
+  }
+}
+@media (min-width: 1200px) {
+  .col-xl-1 {
+    grid-column: span 1;
+  }
+}
+@media (min-width: 1200px) {
+  .col-xl-2 {
+    grid-column: span 2;
+  }
+}
+@media (min-width: 1200px) {
+  .col-xl-3 {
+    grid-column: span 3;
+  }
+}
+@media (min-width: 1200px) {
+  .col-xl-4 {
+    grid-column: span 4;
+  }
+}
+@media (min-width: 1200px) {
+  .col-xl-5 {
+    grid-column: span 5;
+  }
+}
+@media (min-width: 1200px) {
+  .col-xl-6 {
+    grid-column: span 6;
+  }
+}
+@media (min-width: 1200px) {
+  .col-xl-7 {
+    grid-column: span 7;
+  }
+}
+@media (min-width: 1200px) {
+  .col-xl-8 {
+    grid-column: span 8;
+  }
+}
+@media (min-width: 1200px) {
+  .col-xl-9 {
+    grid-column: span 9;
+  }
+}
+@media (min-width: 1200px) {
+  .col-xl-10 {
+    grid-column: span 10;
+  }
+}
+@media (min-width: 1200px) {
+  .col-xl-11 {
+    grid-column: span 11;
+  }
+}
+@media (min-width: 1200px) {
+  .col-xl-12 {
+    grid-column: span 12;
+  }
+}
+
+.menu {
+  width: 960px;
+  padding: 10px;
+  border-bottom: 1px solid gray;
+}
+
+.menu__logo {
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+.menu__nav {
+  display: inline-block;
+  width: 840px;
+  text-align: right;
+}
+
+.navigation {
+  list-style-type: none;
+  margin: 0;
+  display: inline-block;
+}
+
+.navigation__item {
+  display: block;
+  float: left;
+  margin-right: 10px;
+}
+.navigation__item:last-child {
+  margin-right: 0;
+}
+
+.navigation__link {
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 3px 0;
+}
+
+.navigation__input {
+  border-radius: 30px;
+  display: block;
+}
+
+/*# sourceMappingURL=main.css.map */
