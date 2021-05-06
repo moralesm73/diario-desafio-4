@@ -95,12 +95,12 @@ body {
 
 .noticias-destacadas {
     margin-bottom: 50px;
-}
+}/*LISTO*/
 
 .noticias-destacadas img {
     width: 220px;
     height: 200px;
-}
+}/*LISTO*/
 
 
 .newsletter {
@@ -109,11 +109,11 @@ body {
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
-}
+}/*LISTO*/
 
 .newsletter h2 {
     font-size: 24px
-}
+}/*LISTO*/
 
 .group input,
 .group button {

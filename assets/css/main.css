@@ -373,7 +373,6 @@ table {
 }
 
 .menu {
-  width: 960px;
   padding: 10px;
   border-bottom: 1px solid gray;
 }
@@ -387,7 +386,6 @@ table {
 
 .menu__nav {
   display: inline-block;
-  width: 840px;
   text-align: right;
 }
 
@@ -465,6 +463,15 @@ table {
   }
 }
 
+.footer {
+  background-color: white;
+  width: 100%;
+  padding: 10px;
+}
+.footer p {
+  text-align: center;
+}
+
 .sidebar {
   padding-left: 10px;
 }
@@ -534,7 +541,7 @@ table {
 }
 
 .news {
-  padding: 1rem 1.5rem 3rem;
+  padding: 1rem 1.5rem 0rem;
 }
 
 @media (min-width: 768px) {
@@ -653,9 +660,39 @@ table {
   padding: 5px 10px;
 }
 
+.newsletter {
+  background-color: #f2f4f5;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.newsletter h2 {
+  font-size: 24px;
+  margin-bottom: 25px;
+}
+.newsletter p {
+  margin-bottom: 10px;
+}
+
 .navigation__input {
   border-radius: 30px;
   display: block;
+}
+
+.newsletter__input {
+  display: inline-block;
+  border-width: 0;
+  font-size: 13px;
+  padding: 5px 10px;
+}
+
+.newsletter__button {
+  display: inline-block;
+  border-width: 0;
+  font-size: 13px;
+  padding: 5px 10px;
+  background-color: coral;
+  color: white;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,11 +1,8 @@
-.navigation__input {
-    border-radius: 30px;
-    display: block;
-}
-
-.newsletter__input{
+.newsletter__button {
     display: inline-block;
     border-width: 0;
     font-size: 13px;
     padding: 5px 10px;
+    background-color: $coral;
+    color: $white;
 }
